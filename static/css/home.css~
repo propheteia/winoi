@@ -1,0 +1,59 @@
+@charset "UTF-8"
+/* Css document */
+h1{
+	color: white;
+	padding-top: 100px;
+	}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit; /*从父元素继承字体*/
+	vertical-align: baseline;
+}
+	
+h4 {
+    color: #454544;
+    font-family: sans-serif;
+    font-size: 11pt;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+	
+#header-wrapper{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid 
+	#D8D8D8;
+	top: 0;	/*top属性规定元素的顶部边缘,与position有关*/
+	left: 0;
+	position: fixed; 
+	z-index: 5000;
+	}
+	
+#logo{
+	float: left;/*设置文本或图像出现（浮动）在另一个元素中的什么地方;比较有和没有float的区别*/
+	width: 120px;
+	background-color: #FFFFFF;
+	margin-left: 140px;	
+	padding:20px 0 10px 20px;
+	}
+
+#header-text{
+    display: block;
+    height: 40px;
+    margin-left: 340px;
+    padding-top: 36px;
+    width: 480px;	
+	}	
+#header-text h6{
+	margin-top: 5px;
+	}
+#header-text a{
+	color: #d8d8d8;
+	font-size: 9pt;
+	text-decoration: none;
+	
+	}
