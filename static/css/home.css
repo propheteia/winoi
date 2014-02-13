@@ -94,9 +94,9 @@ ul{
 	padding-top: 190px;
 	}
 #container p{
-	line-height:19px;  /*行距*/
+	line-height:24px;  /*行距*/
 	text-indent:30px; /*首行空格*/
-	letter-spacing:0.8px;/*字体间隔*/
+	/*letter-spacing:0.5px;字体间隔*/
 	font-size: 14px;
    margin: 10px 20px;
    color:#454544;
