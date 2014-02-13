@@ -35,16 +35,16 @@ h4 {
 	
 #logo{
 	float: left;/*设置文本或图像出现（浮动）在另一个元素中的什么地方;比较有和没有float的区别*/
-	width: 120px;
+	width: 190px;
 	background-color: #FFFFFF;
-	margin-left: 140px;	
-	padding:20px 0 10px 20px;
+	margin-left: 115px;	
+	padding:20px 0 10px 120px;
 	}
 
 #header-text{
     display: block;
     height: 40px;
-    margin-left: 340px;
+    margin-left: 440px;
     padding-top: 36px;
     width: 480px;	
 	}	
@@ -57,3 +57,63 @@ h4 {
 	text-decoration: none;
 	
 	}
+#main-menu{
+	background-color: white;
+	height: 300px;
+	width: 70px;
+	margin-left: 230px;
+	position: fixed;
+	padding-left: 30px;
+	padding-top: 100px;
+	
+	}
+#main-menu a{
+	color: #707070;
+	text-decoration: none;
+	}
+#main-menu li{
+	padding: 10px 1px 10px 1px;
+	}
+#menu-wrapper {
+    float: left;
+    height: 100%;
+    padding-top: 120px;
+    width: 330px;
+}
+	
+ul{
+	list-style: none;
+	}
+	
+#container{
+	margin-left:360px;
+	height: 100%;
+	width: 500px;
+	padding-left: 30px;
+	padding-right: 80px;
+	padding-top: 190px;
+	}
+#container p{
+	line-height:19px;  /*行距*/
+	text-indent:30px; /*首行空格*/
+	letter-spacing:0.8px;/*字体间隔*/
+	font-size: 14px;
+   margin: 10px 20px;
+   color:#454544;
+	}
+#container h2{
+	color:#454544;
+	text-align: center;
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
