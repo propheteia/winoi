@@ -62,7 +62,7 @@ h4 {
 	height: 300px;
 	width: 70px;
 	margin-left: 230px;
-	position: fixed;
+	position: fixed;	
 	padding-left: 30px;
 	padding-top: 100px;
 	
@@ -104,9 +104,20 @@ ul{
 #container h2{
 	color:#454544;
 	text-align: center;
-	
 	}
 
+#footer{
+	 position: fixed;
+    bottom: 40px;
+    left: 200px; 	
+    /*生成绝对定位的元素，相对于浏览器窗口进行定位。
+		元素的位置通过 "left", "top", "right" 以及
+		"bottom" 属性进行规定。*/
+	}
+#footer h6{
+	color: #454545;	
+	font-size: 8pt;
+	}
 
 
 
