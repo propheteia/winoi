@@ -30,7 +30,7 @@ h4 {
 	top: 0;	/*top属性规定元素的顶部边缘,与position有关*/
 	left: 0;
 	position: fixed; 
-	z-index: 5000;
+	z-index: 2;
 	}
 	
 #logo{
