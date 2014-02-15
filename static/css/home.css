@@ -88,10 +88,11 @@ ul{
 #container{
 	margin-left:360px;
 	height: 100%;
-	width: 500px;
+	width: 440px;
 	padding-left: 30px;
-	padding-right: 80px;
-	padding-top: 190px;
+	padding-right: 20px;
+	padding-top: 170px;
+ 	border-right: 1px solid #D6D6D6;
 	}
 #container p{
 	line-height:24px;  /*行距*/
@@ -115,9 +116,69 @@ ul{
 		"bottom" 属性进行规定。*/
 	}
 #footer h6{
-	color: #454545;	
+	color: #454545	;	
 	font-size: 8pt;
 	}
+
+.proj_item{
+	background-color: white;
+	width: 400px;
+	height: 100px;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	}
+
+.proj_picture{
+	background-color: white;
+	width: 120px;
+	float: left;
+	}
+	
+.proj_text{
+	background-color: white;
+	margin-left: 130px;
+	width: 220px;
+	padding: 23px 20px 20px 20px;
+}
+
+.proj_text h6{
+	color: #454545	;	
+	font-size: 10pt;	
+	font-family: sans-serif;
+	}
+
+.proj_image{
+	 max-height:90px; 
+    max-width:90px;
+    min-height: 80px;
+    min-width: 80px;
+    width:expression( (this.width > 300 && this.width > this.height) ? '300px': this.width+'px');
+    height:expression( (this.height > 300 && this.height > this.width) ? '300px': this.height+'px');
+    border: 0px;
+    vertical-align: middle;}
+
+
+.spacer {
+    background-color: #D6D6D6;
+    border-style: solid;
+    height: 1px;
+    margin: 20px 320px 20px 50px;
+    z-index: 5900;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
