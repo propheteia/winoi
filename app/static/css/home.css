@@ -1,0 +1,215 @@
+@charset "UTF-8"
+/* Css document */
+h1{
+	color: white;
+	padding-top: 100px;
+	}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit; /*从父元素继承字体*/
+	vertical-align: baseline;
+}
+	
+h4 {
+    color: #454544;
+    font-family: sans-serif;
+    font-size: 11pt;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+	
+#header-wrapper{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid 
+	#D8D8D8;
+	top: 0;	/*top属性规定元素的顶部边缘,与position有关*/
+	left: 0;
+	position: fixed; 
+	z-index: 2;
+	}
+	
+#logo{
+	float: left;/*设置文本或图像出现（浮动）在另一个元素中的什么地方;比较有和没有float的区别*/
+	width: 190px;
+	background-color: #FFFFFF;
+	margin-left: 115px;	
+	padding:20px 0 10px 120px;
+	}
+
+#header-text{
+    display: block;
+    height: 40px;
+    margin-left: 440px;
+    padding-top: 36px;
+    width: 480px;	
+	}	
+#header-text h6{
+	margin-top: 5px;
+	}
+#header-text a{
+	color: #d8d8d8;
+	font-size: 9pt;
+	text-decoration: none;
+	
+	}
+#main-menu{
+	background-color: white;
+	height: 300px;
+	width: 70px;
+	margin-left: 230px;
+	position: fixed;	
+	padding-left: 30px;
+	padding-top: 100px;
+	
+	}
+#main-menu a{
+	color: #707070;
+	text-decoration: none;
+	}
+#main-menu li{
+	padding: 10px 1px 10px 1px;
+	}
+#menu-wrapper {
+    float: left;
+    height: 100%;
+    padding-top: 120px;
+    width: 330px;
+}
+	
+ul{
+	list-style: none;
+	}
+	
+#container{
+	height: 100%;
+	width: 470px;
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-top: 170px;
+ 	/*border-right: 1px solid #D6D6D6;*/
+ 	float: left;
+	}
+#container p{
+	line-height:24px;  /*行距*/
+	text-indent:30px; /*首行空格*/
+	letter-spacing:0.5px;/*字体间隔*/
+	font-size: 14px;
+   margin: 10px 20px;
+   color:#454544;
+	}
+#container h2{
+	color:#454544;
+	text-align: center;
+	}
+
+#footer{
+	 position: fixed;
+    bottom: 40px;
+    left: 200px; 	
+    /*生成绝对定位的元素，相对于浏览器窗口进行定位。
+		元素的位置通过 "left", "top", "right" 以及
+		"bottom" 属性进行规定。*/
+	}
+#footer h6{
+	color: #454545	;	
+	font-size: 8pt;
+	}
+
+.proj_item{
+	background-color:  #D6D6D6;
+	width: 380px;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border: 1px solid #D6D6D6;
+	border-radius: 15px; /*图片圆角*/
+
+	}
+
+.proj_picture{
+	background-color: #D6D6D6;
+	width: 120px;
+	float: left;
+	margin-left: 10px;
+	}
+	
+.proj_text{
+	background-color: #D6D6D6;
+	margin-left: 130px;
+	width: 200px;
+	padding: 23px 20px 20px 20px;
+}
+
+.proj_text h6{
+	color: #454545	;	
+	font-size: 10pt;	
+	font-family: sans-serif;
+	}
+
+.proj_image{
+	 max-height:80px; 
+    max-width:80px;
+    min-height: 70px;
+    min-width: 70px;
+    width:expression( (this.width > 300 && this.width > this.height) ? '300px': this.width+'px');
+    height:expression( (this.height > 300 && this.height > this.width) ? '300px': this.height+'px');
+    border: 0px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+
+.spacer {
+    background-color: #D6D6D6;
+    border-style: solid;
+    height: 1px;
+    margin: 20px 320px 20px 50px;
+    z-index: 5900;
+    
+}
+
+
+#contact_info{	
+	background-color: white;
+	width: 100px;	
+	height: 100%;
+	float: left;
+	padding: 200px 30px 100px 30px;
+	}
+
+#email{
+	position: fixed;
+	}
+#contact_info p{
+    color: #848484;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 8pt;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
