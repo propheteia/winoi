@@ -12,7 +12,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font: inherit; /*从父元素继承字体*/
 	vertical-align: baseline;
 }
-	
+	/*body{
+ 	background-image: url("http://www.ruanyifeng.com/images_pub/pub_279.jpg");	
+   background-repeat: no-repeat;
+   background-size: cover;	
+		}*/
 h4 {
     color: #454544;
     font-family: sans-serif;
@@ -20,13 +24,12 @@ h4 {
     line-height: 1.6em;
     text-decoration: none;
 }
-	
+
 #header-wrapper{
 	background-color: #FFFFFF;
 	width: 100%;
 	height: 120px;
-	border-bottom: 1px solid 
-	#D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
 	top: 0;	/*top属性规定元素的顶部边缘,与position有关*/
 	left: 0;
 	position: fixed; 
@@ -36,7 +39,6 @@ h4 {
 #logo{
 	float: left;/*设置文本或图像出现（浮动）在另一个元素中的什么地方;比较有和没有float的区别*/
 	width: 190px;
-	background-color: #FFFFFF;
 	margin-left: 115px;	
 	padding:20px 0 10px 120px;
 	}
@@ -58,7 +60,6 @@ h4 {
 	
 	}
 #main-menu{
-	background-color: white;
 	height: 300px;
 	width: 70px;
 	margin-left: 230px;
@@ -87,26 +88,116 @@ ul{
 	
 #container{
 	height: 100%;
-	width: 470px;
+	width: 475px;
 	padding-left: 50px;
-	padding-right: 20px;
-	padding-top: 170px;
- 	/*border-right: 1px solid #D6D6D6;*/
+	padding-right: 40px;
+	margin-top: 170px;
+ 	border-right: 1px solid #D6D6D6;
  	float: left;
 	}
-#container p{
+
+#related_blog{
+	width: 300px;
+	padding-left: 30px;	
+	font-size: 13px;
+	}
+#related_blog ul{
+	padding-left: 20px;	
+	list-style-type : square;	
+	}
+#from_proj{
+	width: 100px;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	margin-left: 20px;
+	font-size: 14px;
+   color:#454544;	
+	/*border-bottom: 4px solid #D8D8D8;
+	border-bottom-style: double;*/
+	}
+#passage-single{
+	width: 470px;
+	margin-bottom: 20px;
+
+	font-size: 13px;
+   color:#454544;
+  /* border-bottom: 1px solid #D6D6D6;*/
+	}	
+	
+#passage-single p{
+	word-wrap: normal;
 	line-height:24px;  /*行距*/
 	text-indent:30px; /*首行空格*/
-	letter-spacing:0.5px;/*字体间隔*/
-	font-size: 14px;
+	letter-spacing:0px;/*字体间隔*/
+	font-size: 13px;
    margin: 10px 20px;
+   margin-bottom: 3px;
    color:#454544;
+   padding-bottom: 10px;
+  /* border-bottom: 1px solid #D6D6D6;*/
 	}
-#container h2{
+#passage-single h2{
+	font-weight: 600;
 	color:#454544;
+	font-size: 16px;
 	text-align: center;
 	}
+#passage-single ul {
+	list-style-type : square;	
+	padding-left: 62px;
+	}
+#passage-single li{
+	padding-bottom: 10px;	
+	}
+.passage{
+	height: 300px;
+	width: 470px;
+	margin-bottom: 20px;
+	}
+.passage p{
+	line-height:24px;  /*行距*/
+	text-indent:30px; /*首行空格*/
+	letter-spacing:0px;/*字体间隔*/
+	font-size: 13px;
+   margin: 10px 20px;
+   margin-bottom: 3px;
+   color:#454544;
+   padding-bottom: 10px;
+  	border-bottom: 1px solid #D6D6D6;
+	}
+.passage h2{
+	font-weight: 600;
+	color:#454544;
+	font-size: 16px;
+	text-align: center;
+	}
+.passage  a {
+	text-decoration: none;
+	color: #454544;
+	font-weight: 600;
+	}
 
+pre {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #CCCCCC inset;
+    color: #333333;
+    font-family: sans-serif;
+    margin: 10px 20px 10px 20px;
+    overflow: auto;
+    padding: 1em 1em;
+    text-align: left;
+    word-wrap: normal;
+}
+.time{
+	 color: #222222;
+    font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    word-wrap: break-word;
+	margin-right: 30px;
+	text-align: right;	
+	}
 #footer{
 	 position: fixed;
     bottom: 40px;
@@ -121,32 +212,35 @@ ul{
 	}
 
 .proj_item{
-	background-color:  #D6D6D6;
+
 	width: 380px;
-	height: 100px;
+	height: 140px;
 	margin-left: 50px;
 	margin-top: 20px;
 	margin-bottom: 5px;
 	border: 1px solid #D6D6D6;
 	border-radius: 15px; /*图片圆角*/
 
+
 	}
 
 .proj_picture{
-	background-color: #D6D6D6;
-	width: 120px;
+	width: 100px;
 	float: left;
 	margin-left: 10px;
+	margin-top: 10px;
 	}
 	
 .proj_text{
-	background-color: #D6D6D6;
-	margin-left: 130px;
-	width: 200px;
-	padding: 23px 20px 20px 20px;
+	margin-left: 100px;
+	width: 230px;
+	padding: 27px 20px 20px 20px;
 }
 
-.proj_text h6{
+.proj_text h2{
+	padding-bottom: 5px;	
+	}
+.proj_text p{
 	color: #454545	;	
 	font-size: 10pt;	
 	font-family: sans-serif;
@@ -177,7 +271,6 @@ ul{
 
 
 #contact_info{	
-	background-color: white;
 	width: 100px;	
 	height: 100%;
 	float: left;
@@ -195,7 +288,10 @@ ul{
     text-align: justify;
 }
 
-
+#from_proj a{
+	text-decoration: underline;	
+	color:  black;
+	}
 
 
 
