@@ -15,16 +15,13 @@
 	<div id="main-menu">
 		<ul>
 		<li>
-		<a href="{{ url_for('index') }}" >首页</a>
+		<a href="{{ url_for('index') }}" {% if session['nav'] == "index"%} class="current" {% endif %}>首页</a>
 		</li>
 		<li>
-		<a href="#">文档</a>
-		</li>
-		<li>
-		<a href="{{ url_for('project') }}">做过</a>
+		<a href="{{ url_for('project') }}" {% if session['nav'] == "project"%} class="current" {% endif %}>做过</a>
 		</li>	
 		<li>
-			<a href="#" >联系</a>
+		<a href="#"{% if session['nav'] == "contact"%} class="current" {% endif %} >联系</a>
 		</li>
 		</ul>
 	</div>

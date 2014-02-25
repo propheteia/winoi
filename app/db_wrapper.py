@@ -13,3 +13,9 @@ class DataWrapper():
 
     def get_blog_by_id(self, blog_id):
         return Blog.query.get(blog_id)
+
+    def get_category_all(self):
+        return Category.query.all()
+
+    def get_category_by_id(self, category_id):
+        return Category.query.get(category_id)

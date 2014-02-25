@@ -1,6 +1,23 @@
 <div id="contact_info">
-<div id="email">
-<h5>Email</h5>
-<p>wenbin.rc#gmail.com</p>
+
+
+
+<div class="items">
+<h2>目录:</h2>
+<ul>
+{% for cate in g.Category %}
+<li><a href="{{ url_for('blogs_under_category', category_id = cate.id )}}">{{ cate.name }}({{ cate.blogs.count() }})</a></li>
+{% endfor %}
+</ul>
 </div>
+
+<div class="items">
+<h2>项目:</h2>
+<ul>
+{% for proj in g.Projects%}
+<li><a href="{{ url_for('project_details', project_id= proj.id) }}">{{proj.name}}({{ proj.blogs.count() }})</a></li>
+{% endfor %}
+</ul>
+</div>
+
 </div>
